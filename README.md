@@ -3,18 +3,6 @@ a MediaPlay  run in Android Platform
 MediaPlayer is the DLNA device(DMP), which can be in the search for DMS devices, browse resources and play locally
 
 
-
-###Preview
-
-![github](https://github.com/geniusgithub/MediaPlayer/blob/master/storage/main.jpg?raw=true "github")  
-
-![github](https://github.com/geniusgithub/MediaPlayer/blob/master/storage/browse.jpg?raw=true "github")  
-
-![github](https://github.com/geniusgithub/MediaPlayer/blob/master/storage/media.jpg?raw=true "github")  
-
-##APK DOWNLOAD
-* [mediaPlayer.apk](https://raw.githubusercontent.com/geniusgithub/MediaPlayer/master/storage/mediaPlayer.apk)
-
 ##Points
 
 * 使用MVP架构整个项目
@@ -36,17 +24,10 @@ MediaPlayer is the DLNA device(DMP), which can be in the search for DMS devices,
 3.适配android 6.0<br/> 
 4.重构业务逻辑代码<br/> 
 
-###V3.0
-1.首版提交
-
 
 ##Thanks
 
-###upnp:
-The upnp framework is CyberGarage,source from [CyberLink4Java](https://github.com/cybergarage/CyberLink4Java)!
 
-###RES:
-dlna doc: [DLNA Document](http://download.csdn.net/detail/geniuseoe2012/4969961)<br />
 
 ###LIB:
 ####UI
@@ -58,15 +39,9 @@ dlna doc: [DLNA Document](http://download.csdn.net/detail/geniuseoe2012/4969961)
 
 ####AOSP and so on
 
-
 ##Run requirements
 ------------------------------
 Android OS 5.0 and up<br />
-
-
-## Links
-csdn blog : [http://blog.csdn.net/geniuseoe2012](http://blog.csdn.net/lancees/article/details/8477513)<br /> 
-cnblog : [http://www.cnblogs.com/lance2016](http://www.cnblogs.com/lance2016/archive/2013/01/07/5204247.html)<br /> 
 
 
 ## Development
