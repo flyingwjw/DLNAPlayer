@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+
+    <LinearLayout  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="8dp"
+                  android:gravity="center"
+                  android:background="?attr/colorPrimary"
+                  android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/logo_big"/>
+
+        <TextView
+            android:id="@+id/tv_localAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_alignParentBottom="true">
+            <LinearLayout
+                android:id="@+id/ll_exit"
+                style="@style/leba_bg_base_layout"
+                android:background="?android:attr/selectableItemBackground">
+                <ImageView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/icon_exit" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="EXIT" android:layout_weight="1.0" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/ll_bottom">
+
+            <LinearLayout
+                android:id="@+id/ll_search"
+                style="@style/leba_bg_base_layout" >
+                <ImageView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/icon_search" />
+                <TextView android:textSize="16.0dip" android:textColor="#3e3a39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="SEARCH" android:layout_weight="1.0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_restart"
+                style="@style/leba_bg_base_layout" >
+                <ImageView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/icon_reset" />
+                <TextView android:textSize="16.0dip" android:textColor="#3e3a39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="RESET" android:layout_weight="1.0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_stop"
+                style="@style/leba_bg_base_layout" >
+                <ImageView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/icon_stop" />
+                <TextView android:textSize="16.0dip" android:textColor="#3e3a39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="STOP" android:layout_weight="1.0" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

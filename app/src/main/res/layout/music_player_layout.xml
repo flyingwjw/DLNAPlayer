@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+ 
+    
+    <RelativeLayout android:id="@+id/info_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    	<include android:id="@+id/prepare_panel" layout="@layout/media_prepare_layout" android:visibility="gone" />
+    	<include android:id="@+id/control_panel" layout="@layout/music_main_layout" android:visibility="visible"  />
+    </RelativeLayout>
+ 
+   
+       
+</FrameLayout>

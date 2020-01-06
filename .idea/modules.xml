@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MediaPlayer-master.iml" filepath="$PROJECT_DIR$/MediaPlayer-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.geniusgithub.common/com.geniusgithub.common.iml" filepath="$PROJECT_DIR$/com.geniusgithub.common/com.geniusgithub.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cybergarage-upnp/cybergarage-upnp.iml" filepath="$PROJECT_DIR$/cybergarage-upnp/cybergarage-upnp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dlnaLibrary/dlnaLibrary.iml" filepath="$PROJECT_DIR$/dlnaLibrary/dlnaLibrary.iml" />
+    </modules>
+  </component>
+</project>
