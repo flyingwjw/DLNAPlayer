@@ -1,5 +1,7 @@
 # A MediaPlay  run in Android Platform 
 
+fork from [MediaPlayer](https://github.com/geniusgithub/MediaPlayer)
+
 MediaPlayer is the DLNA device(DMP), which can be in the search for DMS devices, browse resources and play locally
 
 
