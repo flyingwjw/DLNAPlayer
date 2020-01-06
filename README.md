@@ -1,5 +1,5 @@
 # A MediaPlay  run in Android Platform 
-===========
+
 MediaPlayer is the DLNA device(DMP), which can be in the search for DMS devices, browse resources and play locally
 
 
@@ -36,7 +36,7 @@ MediaPlayer is the DLNA device(DMP), which can be in the search for DMS devices,
 #### AOSP and so on
 
 ## Run requirements
-------------------------------
+
 Android OS 5.0 and up<br />
 
 
@@ -45,7 +45,7 @@ If you think this article useful Nepal , please pay attention to me<br />
 Your support is my motivation, I will continue to strive to do better
 
 
-##License
+## License
 
 Copyright (c) 2016 geniusgithub
 
